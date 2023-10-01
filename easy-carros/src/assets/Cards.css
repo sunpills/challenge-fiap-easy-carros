@@ -1,0 +1,19 @@
+.cards-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    padding-left: 1rem;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cards-details {
+    background-color: #F2F2F2;
+}
